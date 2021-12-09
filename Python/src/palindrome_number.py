@@ -8,9 +8,8 @@ class Solution:
         reverse_int = 0
         orignial_int = x
 
-        while orignial_int != 0:
-            reverse_int *= 10
-            reverse_int += orignial_int % 10
-            orignial_int = orignial_int // 10
+        while x != 0:
+            reverse_int = reverse_int * 10 + x % 10
+            x = x // 10
 
-        return x == reverse_int
+        return orignial_int == reverse_int
