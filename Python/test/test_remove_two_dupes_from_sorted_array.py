@@ -1,5 +1,5 @@
 import unittest
-from src.remove__dupes_from_sorted_array import Solution
+from src.remove_dupes_from_sorted_array import Solution
 
 class TestSolution(unittest.TestCase):
 
